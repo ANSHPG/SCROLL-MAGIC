@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgreen;
+    width: 10px;
+    border-radius: 10Spx;
+}
+
+#home-page {
+    background-color: #000;
+    /* #646262 */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.scrollContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #252424;
+    margin: 0vw 0.5vw;
+    border-radius: 15px;
+}
+
+.scrollBox {
+    height: 60px;
+    width: 60px;
+    background-color: #b447b4;
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+
+#second-page {
+    background-color: #474646;
+    height: 100vh;
+}
+
+.content {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.content p {
+    font-size: 45px;
+    font-family: 'Space Mono', monospace;
+    text-transform: capitalize;
+}
